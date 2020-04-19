@@ -79,11 +79,11 @@ ActivityStack.navigationOptions = {
 
 const tabNavigator = createBottomTabNavigator({
     
-    ProfileStack,
     HomeStack,
     SearchStack,
     AddPostStack,
     ActivityStack,
+    ProfileStack,
 }, {
     tabBarOptions: {
         showLabel: false
